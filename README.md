@@ -16,3 +16,5 @@ docker logs -f bot-on-anything
 
 #输入云服务器ip地址查看
 https://x.x.x.x
+
+#微信公众号后套消息加解密随便生成一个就可以了
