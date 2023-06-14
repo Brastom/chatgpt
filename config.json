@@ -1,0 +1,20 @@
+{
+  "model": {
+    "type" : "chatgpt",
+    "openai": {
+      "api_key": "填入你的openAi Key",
+      "model": "gpt-3.5-turbo",
+      "character_desc": "ChatGPT",
+      "conversation_max_tokens": 1000
+    }
+  },
+
+  "channel": {
+    "type": "wechat_mp",
+
+    "wechat_mp": {
+      "token": "abcdefghijklmnopqrstuvwxyz",
+      "port": "80"
+    }
+  }
+}
