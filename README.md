@@ -12,3 +12,7 @@ wget -O config.json https://raw.githubusercontent.com/Brastom/chatgpt/main/confi
 docker run --name bot-on-anything -d -p 0.0.0.0:80:80 -v "$(pwd)/config.json:/app/config.json" bot-on-anything python app.py
 
 docker logs -f bot-on-anything
+
+
+#输入云服务器ip地址查看
+https://x.x.x.x
